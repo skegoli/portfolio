@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Steve Kegoli | Public Health, Nutrition & Resilience Leader</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f8f7;--surf:#fff;--ink:#17262b;--mut:#51636a;--brand:#0f4c4a;--brand2:#e3efec;--acc:#b9822a;--line:#d5e0dd;--hero:#0c2f33;--herotx:#f2f7f6;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a1d;--surf:#15262a;--ink:#e6efee;--mut:#9db2b4;--brand:#6fc2b8;--brand2:#1b3438;--acc:#e0b062;--line:#26403f;--hero:#091d20}}
+:root[data-theme="dark"]{--bg:#0e1a1d;--surf:#15262a;--ink:#e6efee;--mut:#9db2b4;--brand:#6fc2b8;--brand2:#1b3438;--acc:#e0b062;--line:#26403f;--hero:#091d20}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:4.5rem}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.02rem/1.65 "Instrument Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:Newsreader,Georgia,serif;font-weight:600;line-height:1.15;margin:0 0 .6rem}
+h2{font-size:clamp(1.8rem,4vw,2.5rem);color:var(--brand)}h3{font-size:1.3rem}
+p{margin:0 0 1rem;max-width:68ch}a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 1.25rem}
+section{padding:4rem 0}section.alt{background:var(--brand2)}
+.lead{color:var(--mut);font-size:1.1rem}
+nav{position:sticky;top:0;z-index:20;background:var(--hero);color:var(--herotx)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:3.5rem;overflow-x:auto}
+nav b{font-family:Newsreader,serif;font-size:1.15rem;white-space:nowrap}
+nav div{display:flex;gap:1.1rem;white-space:nowrap;font-size:.92rem}
+nav a{text-decoration:none;opacity:.85}nav a:hover{opacity:1;text-decoration:underline}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.hero{background:var(--hero);color:var(--herotx);padding:4rem 0}
+.hero .wrap{display:grid;grid-template-columns:1.5fr 1fr;gap:2.5rem;align-items:center}
+.hero h1{font-size:clamp(2.6rem,7vw,4.6rem);margin-bottom:.4rem}
+.hero .role{color:var(--acc);font-weight:600;margin-bottom:1rem}
+.ph{aspect-ratio:4/5;border:2px dashed #7fa9a6;border-radius:12px;display:grid;place-items:center;text-align:center;color:#a9c7c4;padding:1rem;font-size:.9rem}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem;margin:1rem 0 0}
+.chips span{border:1px solid currentColor;border-radius:99px;padding:.2rem .75rem;font-size:.85rem;opacity:.9}
+.btn{display:inline-block;margin:.5rem .6rem 0 0;padding:.7rem 1.3rem;border-radius:8px;background:var(--acc);color:#17140c;font-weight:600;text-decoration:none}
+.btn.o{background:none;border:1px solid currentColor;color:inherit}
+.grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:1.2rem}
+.stat b{display:block;font-family:Newsreader,serif;font-size:2.3rem;color:var(--brand);line-height:1.1}
+.stat span{color:var(--mut);font-size:.92rem}
+.flow{display:flex;flex-wrap:wrap;gap:.6rem 1.6rem;margin:1rem 0 1.5rem;padding:0;list-style:none}
+.flow li{position:relative;background:var(--surf);border:1.5px solid var(--brand);border-radius:8px;padding:.5rem .9rem;font-weight:500;font-size:.95rem}
+.flow li:not(:last-child)::after{content:"→";position:absolute;right:-1.35rem;top:50%;transform:translateY(-50%);color:var(--acc);font-weight:700}
+.flow.cyc li{border-left:5px solid var(--acc)}
+.flow.cyc li small{display:block;font-weight:400;color:var(--mut);font-size:.82rem;max-width:22ch}
+.timeline{border-left:3px solid var(--brand);margin:0;padding:0 0 0 1.4rem;list-style:none}
+.timeline li{position:relative;padding-bottom:1.4rem}
+.timeline li::before{content:"";position:absolute;left:-1.95rem;top:.45rem;width:.9rem;height:.9rem;border-radius:50%;background:var(--acc);border:3px solid var(--bg)}
+.timeline time{color:var(--acc);font-weight:600}
+details{background:var(--surf);border:1px solid var(--line);border-radius:10px;margin-bottom:.6rem}
+summary{cursor:pointer;padding:.9rem 1.2rem;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+summary::after{content:"+";color:var(--acc);font-size:1.4rem;line-height:1}
+details[open] summary::after{content:"–"}details[open] summary{color:var(--brand)}
+details>div{padding:0 1.2rem 1rem}
+ul.tags{display:flex;flex-wrap:wrap;gap:.4rem;padding:0;margin:0;list-style:none}
+ul.tags li{background:var(--brand2);color:var(--brand);border-radius:6px;padding:.2rem .65rem;font-size:.88rem;font-weight:500}
+.tabs{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.5rem}
+.tabs button{font:inherit;font-weight:600;padding:.6rem 1rem;border-radius:8px;border:1.5px solid var(--brand);background:var(--surf);color:var(--brand);cursor:pointer;text-align:left}
+.tabs button[aria-selected=true]{background:var(--brand);color:var(--surf)}
+.panel{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:1.6rem}
+.panel[hidden]{display:none}
+.meta{display:flex;flex-wrap:wrap;gap:.4rem 1.6rem;color:var(--mut);font-size:.92rem;margin-bottom:1rem}
+.two{display:grid;gap:1.5rem;grid-template-columns:1fr 1fr}
+.k{font-weight:600;color:var(--brand);margin:1rem 0 .4rem}
+.bars{display:flex;align-items:flex-end;gap:1rem;height:210px;margin:1rem 0;border-bottom:2px solid var(--line)}
+.bars div{flex:1;background:var(--brand);border-radius:6px 6px 0 0;position:relative;color:var(--surf);text-align:center;font-weight:600;padding-top:.4rem}
+.bars div:last-child{background:var(--acc);color:#17140c}
+.bars small{position:absolute;bottom:-1.6rem;left:0;right:0;color:var(--mut);font-weight:400;font-size:.8rem}
+.stack{display:grid;gap:.6rem;max-width:560px}
+.stack div{background:var(--surf);border:1px solid var(--line);border-left:5px solid var(--brand);border-radius:8px;padding:.7rem 1rem}
+.stack div:not(:last-child)::after{content:"↓";display:block;text-align:center;color:var(--acc);font-weight:700;margin:.5rem 0 -.8rem}
+footer{background:var(--hero);color:var(--herotx);padding:3rem 0}
+@media(max-width:760px){.hero .wrap,.two{grid-template-columns:1fr}.ph{aspect-ratio:16/9}section{padding:3rem 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>Steve Kegoli</b><div><a href="#profile">Profile</a><a href="#expertise">Expertise</a><a href="#impact">Impact</a><a href="#cases">Case studies</a><a href="#evidence">Evidence & policy</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero"><div class="wrap">
+<div>
+<h1>Steve Kegoli</h1>
+<p class="role">Public health, nutrition and programme leader, Nairobi, Kenya</p>
+<p>I have spent more than 15 years turning evidence, policy and technical strategy into integrated programmes that strengthen health, nutrition, livelihoods, resilience and community systems.</p>
+<div class="chips"><span>Nutrition</span><span>Health systems</span><span>Food systems</span><span>Resilience</span><span>Livelihoods</span><span>Policy</span><span>Digital health</span></div>
+<a class="btn" href="#cases">View case studies</a><a class="btn o" href="#contact">Get in touch</a>
+</div>
+<img class="ph" src="Passport 2_STEVE.jpg.jpeg" alt="Steve Kegoli" style="object-fit:cover;border:none;width:100%">
+</div></header>
+
+<section id="profile"><div class="wrap">
+<h2>Executive profile</h2>
+<div class="two"><div>
+<p>I am a senior public health, nutrition and programme leader. I design, lead and strengthen integrated programmes across Kenya’s health, nutrition, resilience and community systems.</p>
+<p>I work with national and county governments, donors, international NGOs, local organizations, health facilities and communities, and I turn technical evidence and policy priorities into practical systems, services and interventions.</p>
+<p>My strongest contribution is connecting <b>household realities, community systems, government structures, evidence and policy</b>. I showed this most clearly leading Case Management for Nutrition Resilience (CMNR), where nutrition, health, livelihoods, markets, WASH, climate resilience and protection were built around vulnerable households instead of delivered as separate projects.</p>
+</div>
+<div class="card"><h3>How I lead</h3>
+<p class="lead">I design systems that turn strategy into results. Each programme I lead follows the same cycle.</p>
+<ol class="flow cyc" style="flex-direction:column;gap:.7rem;padding-left:0" id="cycle"></ol></div></div>
+</div></section>
+
+<section class="alt" id="career"><div class="wrap">
+<h2>Career at a glance</h2>
+<ul class="timeline">
+<li><time>2024–2025</time><br><b>Program Manager / Technical Lead, Case Management for Nutrition Resilience</b><br>Mercy Corps, USAID Nawiri RFSA</li>
+<li><time>2012–2023</time><br><b>Health & Nutrition Manager</b><br>Eastern Deanery AIDS Relief Program (EDARP)</li>
+<li><time>2015–2019</time><br><b>Activity Manager, VMMC Programme</b><br>CMMB / EDARP</li>
+<li><time>2009–2012</time><br><b>Nutrition Manager</b><br>EDARP</li>
+</ul>
+</div></section>
+
+<section id="expertise"><div class="wrap">
+<h2>Areas of expertise</h2>
+<p class="lead">Open a group to see the detail.</p>
+<div id="exp"></div>
+</div></section>
+
+<section class="alt" id="impact"><div class="wrap">
+<h2>Career impact dashboard</h2>
+<div class="grid" id="stats"></div>
+</div></section>
+
+<section id="cases"><div class="wrap">
+<h2>Featured case studies</h2>
+<p class="lead">Choose a case study to read the challenge, my role, the model and the results.</p>
+<div class="tabs" role="tablist" id="tabs"></div>
+<div id="panels"></div>
+</div></section>
+
+<section class="alt" id="evidence"><div class="wrap">
+<h2>Evidence, policy and leadership</h2>
+<div class="two"><div>
+<details open><summary>Evidence and learning</summary><div>
+<p>Evidence synthesis follows one path from raw data to adapted programmes.</p>
+<ul class="flow" id="ev"></ul>
+<p class="k">Knowledge products</p>
+<p>Five USAID Nawiri learning briefs (MIYCN, ASRH, Cost of Diet, Community Health Systems, CIAAP), plus technical reports, quarterly and annual reviews, SOPs, programme briefs and policy recommendations.</p></div></details>
+<details><summary>Policy and technical influence</summary><div><ul class="tags" id="pol"></ul></div></details>
+<details><summary>Research and scientific dissemination</summary><div><p>Peer-reviewed paper on HIV linkage improvement, East Africa Medical Journal (2020). Findings presented at IAS, ICASA, WHO-related forums and the World Conference on Tuberculosis and Lung Disease.</p></div></details>
+<details><summary>Safeguarding, protection and gender</summary><div><p>Protection sits inside programme design, referral pathways and accountability systems. Experience covers GBV, child safeguarding, protection mainstreaming, psychosocial support, adolescent and gender-responsive programming, and community feedback.</p></div></details>
+</div><div>
+<div class="card"><h3>Stakeholder leadership</h3><p>I connect these levels around shared outcomes.</p>
+<div class="stack"><div><b>National</b><br>Ministry of Health, donors, UN agencies, technical working groups</div><div><b>County</b><br>County departments, CHMTs, planning structures</div><div><b>Community</b><br>CHPs, leaders, women, youth, producer groups</div><div><b>Household</b><br>Caregivers, children, pastoralist families</div></div></div>
+</div></div>
+</div></section>
+
+<section id="approach"><div class="wrap">
+<h2>Leadership philosophy and tools</h2>
+<div class="grid" id="phil"></div>
+<h3 style="margin-top:2rem">Digital and data tools</h3>
+<ul class="tags" id="tools"></ul>
+<h3 style="margin-top:2rem">Education</h3>
+<div class="grid"><div class="card"><b>MSc Food, Nutrition & Dietetics</b><br>Kenyatta University, 2020</div><div class="card"><b>BSc Home Science & Technology (Nutrition)</b><br>Maseno University, 2006</div><div class="card"><b>Diploma in Project Management</b><br>Kenya Institute of Management, 2009</div></div>
+<p style="margin-top:1rem" class="lead">Also trained in Project DPro, Strategic Management, M&E, Nutrition-Sensitive Agriculture, SPHERE, Gender and Health Systems Strengthening, and Epidemiology & Biostatistics.</p>
+</div></section>
+
+<footer id="contact"><div class="wrap">
+<h2 style="color:var(--acc)">Let’s work together</h2>
+<p>I work at the intersection of public health, nutrition, food systems, resilience, livelihoods, health systems, evidence and policy. I connect strategy, systems, implementation, evidence and institutionalization.</p>
+<a class="btn" href="mailto:skegoli@gmail.com">Email</a><a class="btn o" href="https://www.linkedin.com/in/stevekegoli-nutritionexpert" target="_blank" rel="noopener">LinkedIn</a>
+</div></footer>
+
+<script>
+const $=id=>document.getElementById(id);
+const li=(a,f)=>a.map(f).join("");
+const tags=a=>`<ul class="tags">${li(a,x=>`<li>${x}</li>`)}</ul>`;
+const flow=a=>`<ul class="flow">${li(a,x=>`<li>${x}</li>`)}</ul>`;
+const bul=a=>`<ul>${li(a,x=>`<li>${x}</li>`)}</ul>`;
+const sts=a=>`<div class="grid">${li(a,s=>`<div class="card stat"><b>${s[0]}</b><span>${s[1]}</span></div>`)}</div>`;
+
+$("cycle").innerHTML=li([["Diagnose","Find system gaps with data and field evidence"],["Design","Build workflows, tools and partnerships"],["Implement","Lead teams, partners and government"],["Measure","Use data, dashboards and supervision"],["Adapt","Refine through learning and quality improvement"],["Institutionalize","Embed in policies, plans and budgets"],["Sustain","Build ownership beyond the project"]],x=>`<li>${x[0]}<small>${x[1]}</small></li>`);
+
+const exp={"Nutrition & health systems":["Acute malnutrition","CMAM/IMAM","iCCM-CMAM","MIYCN","BFCI/BFHI","Community health systems","PHC integration","Nutrition in HIV/TB/MCH","Emergency nutrition"],
+"Household resilience & poverty graduation":["CMNR","Household Vision & Action Planning","Poverty graduation","REAP for Nutrition","Asset building","Financial inclusion","VSLAs","Household economic resilience"],
+"Food systems & livelihoods":["Nutrition-sensitive agriculture","Kitchen gardens","Small livestock","Market linkages","Food security","Cost of Diet","Healthy diets","Climate-smart livelihoods"],
+"Climate, WASH & resilience":["Water security","Climate adaptation","Disaster-risk reduction","Natural-resource management","WASH integration","Shock-responsive programming","Resilience systems"],
+"Programme & technical leadership":["Programme design","Technical oversight","Partner coordination","Work planning","Performance management","Supportive supervision","Adaptive management","Quality assurance"],
+"Evidence, research & learning":["Evidence synthesis","Quantitative and qualitative evidence","KIIs","Thematic analysis","Contribution analysis","Outcome harvesting","Learning briefs","Research-to-practice"],
+"Policy & systems influence":["Policy development","Guideline development","Technical working groups","Government engagement","County planning","CIDPs/ADPs","Budget advocacy","Institutionalization"],
+"Digital & data systems":["CommCare","Power BI","Epi Info","Mendeley","DHIS2/KHIS2","EMR","Mobile data systems","Performance dashboards"]};
+$("exp").innerHTML=Object.entries(exp).map(([k,v],i)=>`<details${i?"":" open"}><summary>${k}</summary><div>${tags(v)}</div></details>`).join("");
+
+$("stats").innerHTML=li([["15+","Years of experience"],["600,000+","People in the wider Nawiri programme system"],["146,486","Under-five children reached"],["260","Community Units"],["220","Health facilities"],["350","Villages"],["203","Units scaled with iCCM-CMAM/FL-MUAC"],["31%","Improvement in dietary diversity"],["8.3%","Reduction in persistent acute malnutrition"],["14","Facilities on the digital health system"],["500+","CHVs supported digitally"],["12","Countries using the CMAM reporting platform"]],s=>`<div class="card stat"><b>${s[0]}</b><span>${s[1]}</span></div>`);
+
+$("ev").innerHTML=li(["Collect","Organize","Quality assure","Analyse","Triangulate","Synthesize","Translate","Adapt"],x=>`<li>${x}</li>`);
+$("pol").innerHTML=li(["National VMMC Strategy","National HTS Guidelines","HIV Self-Testing Framework","Nutrition in TB Curriculum","ACSM Guidelines","Kenya Nutrition Action Plan","National PrEP technical work","National GBV processes","WHO Global HIV Quality of Care TWG","Global CMAM reporting systems"],x=>`<li>${x}</li>`);
+$("phil").innerHTML=li([["Evidence-led","Data and implementation evidence guide my decisions."],["Household-centred","I focus on how systems affect people and households."],["Systems-oriented","I look past single interventions to the structures that sustain outcomes."],["Collaborative","I work across government, partners, communities and disciplines."],["Adaptive","Learning is part of implementation, not an afterthought."],["Sustainability-focused","I prioritize government ownership and locally embedded systems."]],x=>`<div class="card"><h3>${x[0]}</h3><p>${x[1]}</p></div>`);
+$("tools").innerHTML=li(["CommCare: offline-first data","Power BI: dashboards","Epi Info: analysis","Mendeley: references","DHIS2 / KHIS2: health information","EMR and mobile systems","Excel, Word, PowerPoint"],x=>`<li>${x}</li>`);
+
+const cases=[
+{n:"CMNR",t:"Case Management for Nutrition Resilience",s:"An integrated, household-centred resilience operating system",
+meta:["Mercy Corps, USAID Nawiri RFSA","Program Manager / Technical Lead","Samburu & Turkana, Kenya"],
+ch:`<p>Acute malnutrition could not be solved by nutrition services alone. One chain of drivers kept households vulnerable:</p>${flow(["Food insecurity","Poverty","Poor diets","Limited livelihoods","Water insecurity","Climate shocks","Social norms","Weak service access","Acute malnutrition"])}<p>The task was to address these drivers around the household while strengthening the community and government systems that sustain results.</p>`,
+fl:["Household assessment","Household Vision & Action Plan","Integrated services","Community systems","Ward planning","County systems (ADPs / CIDPs / budgets)"],
+ft:"The CMNR model",
+extra:`<p class="k">Integrated services around each household</p>${tags(["Nutrition + health","Livelihoods + poverty graduation","Food security + markets","Financial inclusion","WASH + water security","Protection + gender","SSBC + social norms","Climate resilience"])}
+<p class="k">Key system innovations</p>
+<details><summary>Household Vision & Action Plans (HVAPs)</summary><div><p>I supported HVAPs as the core household planning and case-management tool. Households named their vulnerabilities, priorities, goals, actions, milestones, service needs and livelihood opportunities, and so led their own pathway to better nutrition and resilience.</p></div></details>
+<details><summary>Poverty graduation and economic resilience</summary><div><p>I built REAP for Nutrition, asset building, VSLAs, financial inclusion, mentorship, market linkages and nutrition-sensitive livelihoods into household pathways that move families from vulnerability toward food security and self-reliance.</p></div></details>
+<details><summary>Climate and water resilience</summary><div><p>Water security, water infrastructure, climate-smart livelihoods, natural-resource management and disaster-risk reduction were included because water and climate insecurity directly drove household nutrition.</p></div></details>
+<details><summary>Community health and referral systems</summary><div><p>I gave technical oversight to iCCM-CMAM, FL-MUAC, MIYCN, BFCI, screening, referral, follow-up and supportive supervision. The referral pathway became visible across community and facility:</p>${flow(["Community screening","Referral","Facility treatment","Follow-up","Community monitoring","Case closure"])}</div></details>
+<details><summary>Digital evidence system</summary><div><p>I designed and managed an offline-first CommCare system holding individual case records across the community.</p>${flow(["Household / case data","CommCare","Power BI","Real-time performance and research-quality monitoring"])}</div></details>
+<details><summary>Government institutionalization</summary><div>${flow(["Household priorities","Community dialogue","Ward planning","County planning","ADPs / CIDPs","Government resources"])}${bul(["Institutionalized HVAP/CIAAP","Strengthened county nutrition structures","Supported a dedicated Nutrition Directorate in Turkana County","First county budget allocation for CHP co-financing"])}</div></details>`,
+st:[["8.3%","Reduction in persistent acute malnutrition"],["31%","Improvement in dietary diversity"],["203","Community Units scaled with iCCM-CMAM/FL-MUAC"],["146,486","Under-five children reached"],["260","Community Units"],["220","Health facilities"],["350","Villages"],["5","Learning briefs co-produced"]],
+sk:["Integrated programme design","Technical leadership","Poverty graduation","Climate resilience","Community health systems","Digital evidence systems","Government institutionalization","Adaptive management"]},
+{n:"CIAAP",t:"Community-Integrated Assessment & Action Planning",s:"Connecting community priorities to government planning",
+meta:["Programme: Nawiri","Role: design and implementation support"],
+ch:`<p>Community priorities do not automatically become government priorities. I supported an approach that gave community-generated evidence a practical route into county planning.</p>`,
+fl:["Household","Community","Baraza","Ward","County","ADP / CIDP"],ft:"The planning pathway",
+extra:`<p class="k">My contribution</p>${bul(["Supported CIAAP design and implementation","Worked with communities and local governance structures","Engaged ward and county actors","Supported participatory evidence gathering","Integrated gender, vulnerability and social-norm considerations","Supported evidence-based advocacy"])}<p><b>Result:</b> community priorities fed government planning and resource prioritization, which strengthened social accountability and more equitable allocation.</p>`,
+st:[],sk:["Participatory evidence","Social accountability","County planning","Advocacy"]},
+{n:"Digital health",t:"Integrated Digital Health System",s:"From fragmented paper records to a joined-up clinic-community information system",
+meta:["EDARP","Functional technical lead","HIV, MCH, SRH, nutrition, GBV, community health"],
+ch:`<p>Paper systems caused fragmented records, weak clinic-community communication, delayed follow-up, duplication, limited visibility of patient journeys and heavy manual reporting.</p><p>I led design, digitization, testing and rollout of an integrated EMR and mobile data-capture system that linked facility and community workflows, including CHV follow-up.</p>`,
+fl:["Map paper workflows","Digital requirements","Work with developers","Pilot","Rollout","Integrate community workflows","Improve from data and feedback"],ft:"Implementation approach",
+extra:`<p>The system also revealed patient identity, duplication and cross-facility care patterns that paper records hid.</p>`,
+st:[["14","Facilities"],["500+","Community Health Volunteers"],["32%","Reduction in loss-to-follow-up"],["72 h to under 2 h","Time to act on missed appointments"],["95%","User adoption"]],
+sk:["Digital transformation","Workflow design","Implementation science","User-centred iteration","Health-system integration"]},
+{n:"HIV linkage",t:"HIV Linkage Quality Improvement",s:"From 67.5% linkage to 98.2%",
+meta:["Quality improvement","Sequential PDSA cycles"],
+ch:`<p>High HIV testing coverage did not guarantee linkage to treatment. I found connected barriers: workflow, waiting times, post-test counselling gaps, staffing, stigma, HIV literacy and weak follow-up.</p>`,
+fl:["Cycle 1: workflow redesign, fast tracking, task shifting","Cycle 2: CHV-assisted tracing and follow-up","Cycle 3: patient literacy and peer mentorship"],ft:"Three PDSA cycles",
+extra:`<div class="bars" aria-label="Linkage rate by cycle"><div style="height:68%">67.5%<small>Baseline</small></div><div style="height:78%">77.3%<small>Cycle 1</small></div><div style="height:88%">86.7%<small>Cycle 2</small></div><div style="height:99%">98.2%<small>Cycle 3</small></div></div><p style="margin-top:2.2rem">The model informed wider HIV programming and national technical guidance, and was published in a peer-reviewed journal and presented at international conferences.</p>`,
+st:[["67.5% to 98.2%","Linkage to treatment"]],sk:["Quality improvement","Data-driven decisions","Behavioural insight","Scale-up","Evidence-to-policy"]},
+{n:"CMAM reporting",t:"Global CMAM Reporting System",s:"Turning field experience into a global information system",
+meta:["Minimum Reporting Package, later CMAM Report"],
+ch:`<p>Nutrition programmes often ran parallel reporting systems that did not match government information systems. I contributed implementation experience so the reporting requirements reflected routine government nutrition reporting.</p>`,
+fl:["One coherent reporting system, not separate programme, donor and government data"],ft:"The principle",
+extra:`<p class="k">What it supports</p>${tags(["Programme management","Quality improvement","Government reporting","Donor reporting","Cross-programme learning"])}<p style="margin-top:1rem">The platform was adopted across 12 countries and used by many organizations. It sharpened my work on standard indicators, information architecture, data quality and scalable technical systems.</p>`,
+st:[["12","Countries"]],sk:["Information architecture","Standard indicators","Data quality","Global scale"]}];
+
+$("tabs").innerHTML=li(cases,(c,i)=>`<button role="tab" id="t${i}" aria-selected="${i==0}" aria-controls="p${i}" data-i="${i}">${c.n}</button>`);
+$("panels").innerHTML=li(cases,(c,i)=>`<article class="panel" role="tabpanel" id="p${i}" aria-labelledby="t${i}" ${i?"hidden":""}>
+<h3>${c.t}</h3><p class="lead">${c.s}</p><div class="meta">${li(c.meta,m=>`<span>${m}</span>`)}</div>
+<p class="k">The challenge</p>${c.ch}<p class="k">${c.ft}</p>${flow(c.fl)}${c.extra||""}
+${c.st.length?`<p class="k">Results</p>${sts(c.st)}`:""}<p class="k">What this case shows</p>${tags(c.sk)}</article>`);
+$("tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;
+document.querySelectorAll("#tabs button").forEach(x=>x.setAttribute("aria-selected",x===b));
+document.querySelectorAll(".panel").forEach(p=>p.hidden=p.id!=="p"+b.dataset.i)});
+</script>
+</body>
+</html>
